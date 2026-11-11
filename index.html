@@ -56,6 +56,14 @@ h2 .n{display:inline-grid;place-items:center;width:34px;height:34px;border-radiu
 .three{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
 .three div{flex:1 1 150px;text-align:center;background:var(--brand-soft);color:var(--brand);
   border-radius:12px;padding:14px;font-weight:700}
+.ex{background:var(--card);border:1px dashed var(--brand);border-radius:16px;padding:18px 22px;margin:12px 0}
+.ex .tag{display:inline-block;background:var(--brand);color:var(--card);border-radius:6px;padding:1px 10px;
+  font-size:12px;font-weight:700;letter-spacing:.08em;margin-bottom:6px}
+.ex h4{margin:0 0 6px;font-size:17px}
+.ex p{margin:6px 0 0;color:var(--muted)}
+.ex .take{color:var(--brand);font-weight:700}
+.exgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.exgrid .ex{margin:0}
 footer{color:var(--muted);font-size:13px;margin-top:48px;border-top:1px solid var(--line);padding-top:16px}
 </style>
 </head>
@@ -103,6 +111,33 @@ footer{color:var(--muted);font-size:13px;margin-top:48px;border-top:1px solid va
     <li><span class="pill warn">FYC</span>8、9 月較去年同期明顯衰退。市場在成長、我們在衰退，就是警訊：大家出海捕魚時，你的船在哪？</li>
   </ul>
 </div>
+
+<div class="exgrid">
+  <div class="ex">
+    <span class="tag">案例</span>
+    <h4>件均變高了，另一個客戶去哪了？</h4>
+    <p>過去要 2 件才能達到 50 萬保費，現在約 1.5 件就做到——代表賣大件的能力提升了。但也代表：以前是「一個客戶買兩張」或「兩個客戶各買一張」，現在只找了一個客戶。</p>
+    <p class="take">→ 那另一個客戶，你送給了誰？</p>
+  </div>
+  <div class="ex">
+    <span class="tag">案例</span>
+    <h4>一個重大傷病，講五遍</h4>
+    <p>副總分享，同業一群夥伴圍著她講重大傷病保障，一直講、一直講。他們說，到客戶那邊至少要講五遍，講到客戶都聽不下去，客戶才會調整。</p>
+    <p class="take">→ 別人一個人講五遍，你講幾遍？</p>
+  </div>
+  <div class="ex">
+    <span class="tag">案例</span>
+    <h4>一份簽呈至少四個人看</h4>
+    <p>副總當律師時，一份書狀改十遍、二十遍都有可能；現在提給老闆的方案，也是幕僚、副總、總經理、董事長層層看過至少四遍。</p>
+    <p class="take">→ 公司一個政策要四遍，客戶的一輩子保障，你只講一遍？每一次失敗都是經驗。</p>
+  </div>
+  <div class="ex">
+    <span class="tag">案例</span>
+    <h4>利變市場，誰在賣？</h4>
+    <p>利變市場雖在衰退，仍有約 1,700 億。除了大型壽險公司，小型保險公司透過信用合作社、農會等「地緣生活圈」在賣；在台北，則是同業大公司說服了客戶。</p>
+    <p class="take">→ 先不要拒絕，先思考：客戶的資產配置裡，可以沒有利變嗎？</p>
+  </div>
+</div>
 <div class="card">
   <h3>三贏才能讓船持穩</h3>
   <div class="three"><div>客戶要贏</div><div>夥伴要贏</div><div>公司要贏</div></div>
@@ -118,6 +153,33 @@ footer{color:var(--muted);font-size:13px;margin-top:48px;border-top:1px solid va
     <li><b>新進者</b>：銀行與壽險整併後，憑公教、年輕數位、中小企業客群，可能衝擊你的客戶。</li>
     <li><b>國際案例</b>：外商銀行深耕海外台灣二代、三代，再往上找到一代的財富傳承需求；不只高資產，中產家庭也整體服務。</li>
   </ul>
+</div>
+
+<div class="exgrid">
+  <div class="ex">
+    <span class="tag">案例</span>
+    <h4>一頓飯的震撼</h4>
+    <p>副總和在美國加州做私人銀行的朋友吃飯。對方說壓力很大，因為另一家國際大銀行在台灣沒有個人財管業務，卻能做台灣客戶——他們深耕聚集在美國學校、科技園區、好住宅區的台灣二代、三代。當二代需要資金往上找，就找到了一代的財富。</p>
+    <p class="take">→ 人家能從二代經營到一代，我們手上的一代客戶呢？</p>
+  </div>
+  <div class="ex">
+    <span class="tag">案例</span>
+    <h4>不只高資產，中產也整批服務</h4>
+    <p>台灣科技廠到海外設廠，外商金融機構是「整批」去服務：連隨行的家庭、媽媽們——雖然是中產、還不到高端客戶——也全面經營。</p>
+    <p class="take">→ 客戶是流動的，只要有跨國因素，就有人在接觸你的客戶。</p>
+  </div>
+  <div class="ex">
+    <span class="tag">案例</span>
+    <h4>銀行整併壽險，會碰到誰？</h4>
+    <p>銀行有三種特別的客群：始終如一的公教人員、愛用數位支付的年輕人、遍布各地（含偏鄉）的中小企業。一旦結合壽險公司，就會直接推保險給這些人。</p>
+    <p class="take">→ 看似離我們很遠，但你的客戶有沒有重疊？你要做什麼準備？</p>
+  </div>
+  <div class="ex">
+    <span class="tag">案例</span>
+    <h4>6,000 人賣出 4,500 億</h4>
+    <p>銀保通路今年以約 6,000 人的規模，就賣出約 4,500 億保費，其中分紅保單占很大一塊。客戶想買的分紅保單，可能就是從銀行端買走的。</p>
+    <p class="take">→ 我們的對手不只是壽險同業，而是銀行。要學習他們的方法。</p>
+  </div>
 </div>
 
 <!-- 4 -->
@@ -170,6 +232,59 @@ footer{color:var(--muted);font-size:13px;margin-top:48px;border-top:1px solid va
     <li><b>人力資本與傳承</b>：預先看 5–10 年後的團隊年齡結構。</li>
     <li><b>數位科技</b>：成立組織人事大數據團隊、產品客戶分析團隊。</li>
   </ul>
+</div>
+
+<h2><span class="n">★</span>戰略裡的案例</h2>
+<div class="exgrid">
+  <div class="ex">
+    <span class="tag">客戶分群</span>
+    <h4>一個愛車的夥伴，養出一整群客戶</h4>
+    <p>假設一位夥伴很愛車，就以「車」為核心：經營一個車隊，再認識另一個車隊、車商、下一個車隊。他只用一套對車的知識，就能一魚多吃、吃二十次。</p>
+    <p>反過來，如果一個人要面對十種客戶，就得學十種行業知識、付出十倍成本。再把經營車友的 ABC 萃取出來，帶新人快速跟上，整個團隊一起經營同一群客戶，槓桿就開到最大。</p>
+    <p class="take">→ 讓越多人專注在同一件事上，人力的槓桿就越高。</p>
+  </div>
+  <div class="ex">
+    <span class="tag">生活圈</span>
+    <h4>搭上總部的資源，一石二鳥</h4>
+    <p>總部經營品牌與生活圈（例如富邦人壽舉辦的馬拉松），讓客戶相信你來自可信賴的集團；但和客戶互動的那一段，還是靠你自己。</p>
+    <p class="take">→ 把自己的生活圈和總部活動接起來，例如帶跑步社群的客戶一起參加。</p>
+  </div>
+  <div class="ex">
+    <span class="tag">商品地圖</span>
+    <h4>銀行怎麼切客群？</h4>
+    <p>銀行每推一個商品，都很在意目標客群是誰，而且不是只分「男生、女生」，會切到「家管型女性」還是「非家管型女性」這麼細。</p>
+    <p class="take">→ 經理要配對清楚：什麼商品 × 什麼客戶 × 什麼團隊來賣。</p>
+  </div>
+  <div class="ex">
+    <span class="tag">AI 銷售</span>
+    <h4>業務員身邊的 AI 小助理</h4>
+    <p>國外大型金融集團用數位管道和 AI 先接觸存款戶、卡友，再轉交業務員。也有集團的業務員散布各地，靠 AI 小機器人幫忙查保單價值、追系統進度，結果出來就主動提醒。</p>
+    <p class="take">→ 如果有一天 AI 突然爆發，我們準備好了嗎？</p>
+  </div>
+  <div class="ex">
+    <span class="tag">組織</span>
+    <h4>同一個單位，四種人</h4>
+    <p>有人喜歡英雄主義、單打獨鬥；有人喜歡三三兩兩結伴；有人只要經理陪；也有人想要別的主管陪，但那位主管又覺得「你不是我增員的」。</p>
+    <p class="take">→ 經理要把這些梳理清楚，萃取每一型的成功元素，讓它可以複製。</p>
+  </div>
+  <div class="ex">
+    <span class="tag">傳承</span>
+    <h4>五年、十年後，你的部隊幾歲？</h4>
+    <p>一個很年輕的單位，過了 5 到 10 年，同事可能都走到 55 歲；也可能從 35 歲走到 45 歲。不同年紀，要的團隊方案完全不同。</p>
+    <p class="take">→ 現在就看清楚團隊結構，把傳承放進人事規劃裡。</p>
+  </div>
+  <div class="ex">
+    <span class="tag">分享</span>
+    <h4>跳出同溫層</h4>
+    <p>經理之間的分享，不要只找同期、同條件的人。去找總監，他們經歷的困難一定比你多；也去找曾經跌倒、再重新站起來的人。</p>
+    <p class="take">→ 越跳出原本的圈子，越能看見自己的盲點。</p>
+  </div>
+  <div class="ex">
+    <span class="tag">創業精神</span>
+    <h4>富邦人壽是你的投資方</h4>
+    <p>如果你是來富邦人壽創業，我們之間是朋友、夥伴、合夥人，也是領導關係——而且富邦人壽是你的投資方，所有營運成本都由公司拿出來。</p>
+    <p class="take">→ 對股東要能交差，就要交出 CSM；做業務不是為錢，但不能沒有錢。</p>
+  </div>
 </div>
 
 <!-- 5 -->
